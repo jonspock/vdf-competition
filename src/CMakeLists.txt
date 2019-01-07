@@ -56,7 +56,6 @@ source_group("Headers" FILES ${HEADERS})
 
 set(SOURCES
   classgroupSquarer.cpp
-  proof_wesolowski.cpp
   )
 
 add_library(vdf ${HEADERS} ${SOURCES})
@@ -67,7 +66,6 @@ set(tests
   cg
   bi
   bm
-  pw
   mul
   compare
   sample
